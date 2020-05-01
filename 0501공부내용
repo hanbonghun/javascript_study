@@ -1,0 +1,30 @@
+자바스크립트 0501
+·레플(read evaluate print loop)
+·NaN : not a number
+·NaN == NaN  --> false
+·자바스크립트의 비교  == -> === 
+		     != -> !=== 	   //예외 (NaN === NaN  --> false)  , !=, == 사용하지말자
+·$(달러) 변수이름 가능
+·undefined 빈 상태 vs null --> undefined 말고 null쓰자 (내가 넣은 값과 컴퓨터가 넣은 값으로 구분 가능)
+·문자열 만드는 법 “”, `(백틱) 작은따옴표 주로 씀
+·prompt(문자열 인식) ->형 변환(숫자로) Number
+·alert() prompt() console()은 브라우저가 만들어준 함수
+·console.log(‘*’,repeat(num))
+·함수 객체가 가장 중요 // 객체 그룹화 
+·객체의 종류 함수와 배열 
+·속성 (ex length)은 대괄호나 ‘,’ 로 접근한다.
+·대괄호 안에는 변수를 쓸 수 있지만 . 뒤에는 못쓴다.
+·문자의 경우 .을 붙이면 브라우저가 객체로 생각한다. (라고 일단 생각)
+·Array.isArray() 배열인지 아닌지 판단
+·브라우저가 제공하는 객체 중 중요한 =>> window
+·Math.random() : 0~1사이 소수 
+
+·window(객체)는 브라우저(브라우저에서 제공하는 것), document(객체)는 탭이라고 생각
+ window객체는 생략할 수 있다.  (전역객체)
+·document (DOM(Document Object Model)객체)  는 html과 javascript 사이의 통역사
+ DOM은 원본 HTML 문서의 객체 기반 표현 방식
+console.dir(document.body)
+
+*구구단 
+![image](https://user-images.githubusercontent.com/33712528/80799955-31596280-8be3-11ea-902a-0b635602c1c2.png)
+
