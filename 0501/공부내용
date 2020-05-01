@@ -25,3 +25,16 @@
 ·document (DOM(Document Object Model)객체)  는 html과 javascript 사이의 통역사
  DOM은 원본 HTML 문서의 객체 기반 표현 방식
 console.dir(document.body)
+
+=========================================================================================
+
+0502 자바스크립트
+동기 : 순서대로 실행되는 코드   ex) if for
+비동기 : 순서대로 실행되지 않는 코드  ex) call back 함수
+document.body() :화면에 접근
+shift unshift pop push
+splice(랜덤 수)
+문자.split(구분자)->배열
+배열.join(구분자)->문자
+indexOf
+리팩토링 : 코딩이 끝나고 코드를 정리하는 것 
